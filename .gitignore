@@ -1,0 +1,73 @@
+# ===============================
+# Python cache & build artifacts
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.venv/
+env/
+.env
+.env.*
+pip-wheel-metadata/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# FastAPI / Uvicorn runtime
+# ===============================
+uvicorn.log
+
+# ===============================
+# Windows OS files
+# ===============================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===============================
+# IDEs and editors
+# ===============================
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# ===============================
+# Nginx runtime files
+# ===============================
+nginx/logs/
+nginx/temp/
+logs/
+
+# ===============================
+# Uploaded user files (IMPORTANT)
+# ===============================
+upload/
+uploads/
+E:/upload/
+
+# ===============================
+# Testing & coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Misc
+# ===============================
+.DS_Store
